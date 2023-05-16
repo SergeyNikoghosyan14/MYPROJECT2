@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.row:hover {
+    color: 'rgb('+random(0, 255)+', '+random(0, 255)+', '+random(0, 255)+')';
+}
+.column:hover {
+    color: 'rgb('+random(0, 255)+', '+random(0, 255)+', '+random(0, 255)+')';
+}
